@@ -1,0 +1,97 @@
+:root {
+  --rojo: #e50914;
+  --fondo: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--fondo);
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu {
+  background-color: #000000;
+}
+
+.contenedor {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  padding: 30px 0;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logotipo {
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  color: var(--rojo);
+  font-size: 40px;
+}
+
+header nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+  color: #fff;
+}
+
+.card {
+  width: 410px;
+  background-color: rgba(240, 41, 41, 0.678);
+  color: #fff;
+  display: inline-block;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.card:hover {
+  width: 410px;
+  background-color: rgba(41, 177, 240, 0.678);
+  color: #fff;
+  display: inline-block;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.descripcion,
+.genero,
+.gen {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.des {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.titulo-card {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  font-size: 21px;
+}
